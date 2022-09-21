@@ -5,7 +5,7 @@ import "./style.css";
 const Table = ({ users }) => {
 	const numbers = Array(31)
 		.fill(0)
-		.map((_, idx) => [idx + 1]);
+		.map((_, idx) => idx + 1);
 
 	return (
 		<div>
